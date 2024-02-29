@@ -1,0 +1,163 @@
+/** @format */
+.main-container {
+  display: inline-flex;
+}
+button {
+  margin: 20px;
+  height: 90px;
+  width: 290px;
+  font-size: 28px;
+  color: white;
+  border: none;
+  background-color: rgb(12, 12, 116);
+}
+
+button:hover {
+  background-color: green;
+}
+
+#btn-1 {
+  transition-property: background-color;
+  transition-duration: 3000ms;
+}
+#btn-2 {
+  transition-property: background-color color;
+  transition-duration: 3000ms;
+}
+
+#btn-2:hover {
+  color: black;
+}
+
+#btn-3 {
+  transition-property: background-color color width;
+  transition-duration: 3000ms;
+}
+
+#btn-3:hover {
+  color: black;
+  width: 600px;
+}
+
+#btn-4 {
+  transition: all 3s ease-in 2s;
+}
+
+#btn-4:hover {
+  color: black;
+  background-color: green;
+  border-radius: 50%;
+}
+.container {
+  width: 960px;
+}
+
+.move {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  width: 150px;
+  height: 50px;
+  padding: 10px 15px;
+  background-color: rgb(208, 96, 96);
+  color: #fff;
+  border-radius: 0.5em;
+  font-size: 20px;
+  transition-property: translate();
+  transition-duration: 3s;
+}
+
+#ease {
+  transition-timing-function: ease;
+}
+
+#linear {
+  transition-timing-function: linear;
+}
+
+#ease-in {
+  transition-timing-function: ease-in;
+}
+
+#ease-out {
+  transition-timing-function: ease-out;
+}
+
+#ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+.move:hover {
+  transform: translate(900px, 0);
+}
+
+.container-2 {
+  height: 90px;
+  width: 290px;
+  font-size: 28px;
+  margin: 20px;
+  color: white;
+  border: none;
+  background-color: blue;
+  line-height: 90px;
+  text-align: center;
+  transition: all 1s;
+}
+
+.background:hover {
+  background-color: green;
+}
+
+.color:hover {
+  color: red;
+}
+
+.font-size:hover {
+  font-size: 32px;
+}
+
+.height:hover {
+  height: 120px;
+}
+
+.width:hover {
+  width: 340px;
+}
+
+.letter-spacing:hover {
+  letter-spacing: 5px;
+}
+
+.line-height:hover {
+  line-height: 120px;
+}
+
+.margin-bottom:hover {
+  margin-bottom: 50px;
+}
+
+.margin-top:hover {
+  margin-top: 50px;
+}
+
+.opacity:hover {
+  opacity: 0.3;
+}
+
+.padding:hover {
+  padding: 20px;
+}
+
+.border-color,
+.border-width {
+  border: 6px solid green;
+}
+
+.border-color:hover {
+  border-color: red;
+}
+
+.border-width:hover {
+  border-width: 12px;
+}
