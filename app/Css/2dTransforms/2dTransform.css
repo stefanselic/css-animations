@@ -1,0 +1,81 @@
+/** @format */
+
+/*Translate*/
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px;
+}
+img {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  transition: transform 2s;
+}
+
+.transform-origin {
+  width: 300px;
+  height: 210px;
+  text-align: center;
+  color: white;
+  font-size: 300%;
+  background-color: rgb(143, 77, 77);
+  margin: auto;
+  margin-top: 200px;
+  transition: transform 2s;
+}
+
+.translate:hover {
+  transform: translate(-500px, 200px);
+}
+
+.scale:hover {
+  transform: scale(2, 2);
+}
+
+.rotate:hover {
+  transform: rotate(-360deg);
+  /* transform: rotate(1turn); */
+  /* transform: rotate(200grad); */
+}
+
+.skew:hover {
+  transform: skew(20deg, 40deg);
+}
+
+#left {
+  transform-origin: left;
+}
+
+#right {
+  transform-origin: right;
+}
+#top {
+  transform-origin: top;
+}
+#bottom {
+  transform-origin: bottom;
+}
+
+#top-right {
+  transform-origin: top-right;
+}
+
+#bottom-left {
+  transform-origin: bottom-left;
+}
+
+#percent {
+  transform-origin: 50% 80%;
+}
+
+.transform-origin:hover {
+  transform: rotate(45deg);
+}

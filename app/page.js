@@ -8,6 +8,8 @@ export default function Home() {
   return (
     <main>
       <Link href={'./transitions'}>Transitions</Link>
+      <br />
+      <Link href={'./2d-transforms'}>2D - Transforms</Link>
     </main>
   );
 }
