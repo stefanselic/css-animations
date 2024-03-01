@@ -2,7 +2,7 @@
 
 import './2dTransform.css';
 
-export default function Transform() {
+export default function TwoDimTransform() {
   return (
     <main>
       <h1>2D - Transforms</h1>

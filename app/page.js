@@ -10,6 +10,8 @@ export default function Home() {
       <Link href={'./transitions'}>Transitions</Link>
       <br />
       <Link href={'./2d-transforms'}>2D - Transforms</Link>
+      <br />
+      <Link href={'./3d-transforms'}>3D - Transforms</Link>
     </main>
   );
 }

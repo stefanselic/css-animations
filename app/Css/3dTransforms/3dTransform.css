@@ -1,0 +1,30 @@
+/** @format */
+
+/*Translate*/
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.transforms {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  transition: transform 2s;
+}
+
+#translate:hover {
+  transform: translateZ(600px);
+}
+
+#rotate:hover {
+  /* transform: rotateZ(60deg);
+  transform: rotateX(60deg); */
+  transform: rotateY(60deg);
+}
+
+main {
+  perspective: 500px;
+}

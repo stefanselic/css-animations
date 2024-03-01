@@ -1,10 +1,10 @@
 /** @format */
-import Transform from '../Css/2dTransforms/2dTransform';
+import ThreeDimTransform from '../Css/3dTransforms/3dTransform';
 
-export default function TransformPage() {
+export default function ThreeDimTransformPage() {
   return (
     <main>
-      <Transform />
+      <ThreeDimTransform />
     </main>
   );
 }
