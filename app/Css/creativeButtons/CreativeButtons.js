@@ -80,6 +80,36 @@ export default function CreativeButtons() {
         <a href="#" class="btn-20">
           Hover Me
         </a>
+        <a href="#" class="btn-21">
+          Button
+        </a>
+        <div class="btn-22-container">
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Button
+          </a>
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Button
+          </a>
+        </div>
+        <div class="btn-23-container">
+          <div class="btn-23">
+            <a href="#">Read More</a>
+          </div>
+          <div class="btn-23">
+            <a href="#">Read More</a>
+          </div>
+          <div class="btn-23">
+            <a href="#">Read More</a>
+          </div>
+        </div>
       </main>
     </>
   );
