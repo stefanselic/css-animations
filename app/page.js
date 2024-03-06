@@ -14,6 +14,8 @@ export default function Home() {
       <Link href={'./3d-transforms'}>3D - Transforms</Link>
       <br />
       <Link href={'./creative-buttons'}>Creative Buttons</Link>
+      <br />
+      <Link href={'./creative-images'}>Creative Images</Link>
     </main>
   );
 }
