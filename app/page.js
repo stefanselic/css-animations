@@ -16,6 +16,8 @@ export default function Home() {
       <Link href={'./creative-buttons'}>Creative Buttons</Link>
       <br />
       <Link href={'./creative-images'}>Creative Images</Link>
+      <br />
+      <Link href={'./creative-menus'}>Creative Menus</Link>
     </main>
   );
 }
