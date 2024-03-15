@@ -18,6 +18,8 @@ export default function Home() {
       <Link href={'./creative-images'}>Creative Images</Link>
       <br />
       <Link href={'./creative-menus'}>Creative Menus</Link>
+      <br />
+      <Link href={'./creative-cards'}>Creative Cards</Link>
     </main>
   );
 }
