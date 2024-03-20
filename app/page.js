@@ -1,7 +1,5 @@
 /** @format */
 
-import Image from 'next/image';
-import styles from './page.module.css';
 import Link from 'next/link';
 
 export default function Home() {
@@ -20,6 +18,8 @@ export default function Home() {
       <Link href={'./creative-menus'}>Creative Menus</Link>
       <br />
       <Link href={'./creative-cards'}>Creative Cards</Link>
+      <br />
+      <Link href={'./creative-examples'}>Creative Examples</Link>
     </main>
   );
 }
