@@ -61,6 +61,42 @@ export default function CreativeExamples() {
           effect
         </h1>
       </div>
+      <br />
+      <div class="example-5-container">
+        <ul>
+          <li>clo</li>
+          <li>
+            <span>s</span>
+            <span>e</span>
+          </li>
+        </ul>
+      </div>
+      <br />
+      <div class="example-6-container">
+        <section>
+          <h2>Focus</h2>
+          <img src="bg.jpg" />
+        </section>
+      </div>
+      <div class="example-7-container">
+        <h2>
+          <span>
+            <i>F</i>
+          </span>
+          <span>
+            <i>O</i>
+          </span>
+          <span>
+            <i>C</i>
+          </span>
+          <span>
+            <i>U</i>
+          </span>
+          <span>
+            <i>S</i>
+          </span>
+        </h2>
+      </div>
     </main>
   );
 }
